@@ -14,8 +14,12 @@
         </p>
       </div>
       <div class="flex mt-20">
-        <Button buttonText="Purchase UI Kit" />
-        <Button buttonText="Learn More" />
+        <Button buttonText="Purchase UI Kit" color="bg-blue-950" textColor="text-white" />
+        <Button
+          buttonText="Learn More"
+          color="bg-white-600"
+          textColor="text-black border-2 border-blue-950"
+        />
       </div>
     </div>
   </section>
@@ -27,7 +31,7 @@ import Button from '@/components/Button.vue'
 
 <style scoped>
 .lorem {
-  width: 540px;
+  width: 500px;
   height: 421px;
 }
 </style>
